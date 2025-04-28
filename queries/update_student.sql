@@ -1,4 +1,4 @@
---Query 2: Update a student's grade in a specific subject and class. (Muiz)
+-- update a student's grade in a specific subject and class
 
 SELECT * FROM grade WHERE StudID = 2001 AND subid = 2301 AND ClassID = 3001;
 

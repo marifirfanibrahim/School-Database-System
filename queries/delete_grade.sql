@@ -1,4 +1,4 @@
--- Farid Hamid has been caught cheating during his exam and thus his grade is invalid, remove his grade (Hanif)
+-- Farid Hamid has been caught cheating during his exam and thus his grade is invalid, remove his grade
 
 DELETE FROM grade
 WHERE StudID = (SELECT StudID

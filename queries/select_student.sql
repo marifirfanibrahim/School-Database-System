@@ -1,4 +1,4 @@
---Query 1: Get a list of students, their classes, and grades in a specific subject. (Muiz)
+-- get a list of students, their classes, and grades in a specific subject
 
 SELECT
     s.sfname || ' ' || s.slname AS "Student Name",
